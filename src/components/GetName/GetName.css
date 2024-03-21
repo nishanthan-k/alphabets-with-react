@@ -1,0 +1,12 @@
+#inputTag,
+#print-btn {
+  margin-left: 20px;
+}
+
+#inputTag,
+#inputBox {
+  margin-top: 20px;
+  resize: none;
+  width: max-content;
+  height: max-content;
+}
