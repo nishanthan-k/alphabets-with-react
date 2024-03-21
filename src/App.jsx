@@ -4,7 +4,10 @@ import { drawA } from './utils/alphabets'
 
 function App() {
   useEffect(() => {
-    document.getElementById("input").value = drawA(10)
+    let textArea = document.getElementById("input")
+    textArea.value = drawA(10)
+    textArea.style.height = (25 + textArea.scrollHeight) + "px";
+    textArea.style.width = (25 + textArea.scrollWidth) + "px";
   }, [])
   return (
     <div>
